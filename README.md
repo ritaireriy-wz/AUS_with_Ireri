@@ -35,14 +35,3 @@ Fancy & Boolean Indexing: Filtering arrays using positional index lists (e.g., t
 Array Copying & Suppression: Utilizing np.ndarray.copy() alongside non-target value suppression (-np.inf) to extract sub-sequence extrema safely without mutating source data.
 
 Type Casting: Converting NumPy scalar primitives (np.float32, np.bool_, np.int64) to standard Python types (float, bool, int) for serialization and strict autograder compatibility.
-
-📂 Repository Structure
-
-.
-├── notebooks/
-│   └── weather_analysis.ipynb   # Interactive Jupyter notebook with exercises
-├── src/
-│   ├── weather_analytics.py     # Clean Python functions for seasonal & climate metrics
-│   └── signal_processing.py     # Signal sampling and discrete filter implementations
-├── README.md                    # Project documentation
-└── requirements.txt             # Dependency specifications
